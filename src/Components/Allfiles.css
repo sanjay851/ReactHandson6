@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(183, 111, 237);
+}
+.navbar{
+    display: flex;
+    background-color: rgb(8, 8, 61);
+    width: auto;
+    height: 70px;
+}
+h2{
+    color:gold;
+    font-family:cursive;
+    padding: 0px 80px;
+}
+.link{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.table{
+    width: 80%;    
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.stud{
+    color:rgb(180, 9, 9);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.btnans{
+    position: absolute;
+    background-color:greenyellow;
+    color:black;
+    width: 20%;
+    height: 45px;
+    border-radius: 25px;
+    margin-left: 980px;
+    top: 135px;
+    right: 250px;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.btnans:hover{
+    background-color:rgb(12, 10, 15);
+    font-weight: 600;
+    color:gold;
+}
+.save{
+    font-size: 20px;
+    text-align: center;
+    width: 18%;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    margin: 10px 20px;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    border-radius: 25px;
+    text-decoration: none;
+}
+form{
+   background-color: brown;
+   color: rgb(235, 244, 244);
+   border-radius: 25px;
+   width: 95%;
+   margin-left: 25px;
+   margin-top: 10px;
+}
+input{
+    background-color: rgb(140, 169, 23);
+}
+label{
+    font-size: 20px;
+    margin: 3rem 7rem;
+}
+.update{
+    font-size: 20px;
+    text-align: center;
+    width: 18%;
+    background-color: rgb(191, 12, 30);
+    padding: 10px;
+    color: rgb(238, 234, 43);
+    margin: 10px 20px;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.Cancle{
+    font-size: 20px;
+    text-align: center;
+    width: 18%;
+    background-color: rgb(66, 71, 7);
+    padding: 10px;
+    color: white;
+    margin: 10px 20px;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    border-radius: 25px;
+    text-decoration: none;
+}
